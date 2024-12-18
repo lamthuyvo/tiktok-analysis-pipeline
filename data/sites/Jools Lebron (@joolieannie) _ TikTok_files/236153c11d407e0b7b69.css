@@ -1,0 +1,304 @@
+.tiktok_ad_privacy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.ttweb-desc {
+  margin-bottom: 17px;
+}
+.ttweb-desc__text--small {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(22, 24, 35, 0.5019607843);
+}
+.ttweb-desc__text--medium {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.ttweb-desc__text--large {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 20px;
+}
+.ttweb-desc__text--list {
+  list-style: none;
+}
+.ttweb-desc__divider {
+  padding-bottom: 16px;
+}
+.ttweb-desc__dark {
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+.ttweb-item-title {
+  display: flex;
+  height: 20px;
+}
+.ttweb-item-title__icon {
+  margin-top: 2px;
+  margin-right: 8px;
+}
+.ttweb-item-title__icon--rtl {
+  margin-left: 8px;
+}
+.ttweb-item-title__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ttweb-item-title__text--light {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.ttweb-item-title__text--lighter {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.ttweb-link {
+  display: flex;
+  margin-bottom: 16px;
+  position: relative;
+}
+.ttweb-link__text {
+  width: 100%;
+}
+.ttweb-link__description {
+  margin-top: 4px;
+}
+.ttweb-link--has_description {
+  align-items: center;
+}
+.ttweb-link_bottom_border {
+  border-bottom: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.ttweb-link_bottom_border--dark {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.12);
+}
+.ttweb-link_disable {
+  opacity: 0.2;
+}
+.ttweb-link__icon {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.ttweb-link__icon--rtl {
+  left: 0px;
+  transform: scaleX(-1);
+}
+.ttweb-modal {
+  padding: 32px;
+}
+.ttweb-modal .TUXModalTitle {
+  margin: 0;
+}
+.ttweb-modal .TUXModalBody {
+  padding: 16px 0 0 0;
+}
+.ttweb-modal .TUXModalFooter {
+  padding: 0;
+}
+.ttweb-modal .TUXModalCloseButton {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  margin-top: 7px;
+}
+.ttweb-modal__header {
+  text-align: center;
+}
+.ttweb-modal__body__description {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(22, 24, 35, 0.75);
+  margin-bottom: 24px;
+}
+.ttweb-modal__body__description--dark {
+  color: rgba(255, 255, 255, 0.5019607843);
+}
+.ttweb-modal__option {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.ttweb-modal__option--latest {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.ttweb-modal__option__input {
+  width: 170px;
+}
+.ttweb-modal__option__input input {
+  border: none;
+  border-bottom: 0.5px solid rgba(22, 24, 35, 0.5019607843);
+  padding-inline: 0px;
+}
+.ttweb-modal__option__input--dark {
+  width: 170px;
+}
+.ttweb-modal__option__input--dark input {
+  border: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  padding-inline: 0px;
+}
+.ttweb-modal__option__label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.ttweb-modal__option__desc {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6509803922);
+  max-width: 300px;
+}
+.ttweb-modal__option__radio {
+  position: absolute;
+  right: 32px;
+}
+.ttweb-modal__option__radio--rtl {
+  position: absolute;
+  left: 32px;
+}
+.ttweb-modal__footer {
+  gap: 8px;
+  display: flex;
+}
+.ttweb-modal__footer__button {
+  width: 164px;
+}
+.ttweb-sub-title-text--large {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.ttweb-sub-title-text--medium {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+.ttweb-sub-title-text--grey {
+  padding: 16px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.48);
+}
+.ttweb-sub-title-text--dark {
+  color: rgba(255, 255, 255, 0.9);
+}
+.ttweb-switch {
+  display: flex;
+  margin-bottom: 16px;
+  position: relative;
+}
+.ttweb-switch--bottom-border {
+  border-bottom: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.ttweb-switch__text--ltr {
+  margin-right: 60px;
+}
+.ttweb-switch__text--rtl {
+  margin-left: 60px;
+}
+.ttweb-switch__description {
+  margin-top: 4px;
+}
+.ttweb-switch__icon {
+  position: absolute;
+  right: 0px;
+}
+.ttweb-switch__icon--rtl {
+  left: 0px;
+  transform: scaleX(-1);
+}
+.ttweb-pa-page-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  padding-top: 8px;
+}
+.ttweb-ca-modal .TUXModalCloseButton {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.ttweb-ca-modal__header {
+  margin: 24px 24px 0 24px;
+  text-align: left;
+  padding-bottom: 18px;
+}
+.ttweb-ca-modal__header--rtl {
+  text-align: left;
+}
+.ttweb-ca-modal__header__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+}
+.ttweb-ca-modal__header--light {
+  color: #000000;
+}
+.ttweb-ca-modal__body {
+  margin: 24px 24px 0 24px;
+  padding-bottom: 24px;
+}
+.ttweb-ca-modal__body--light {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.72);
+}
+.ttweb-ca-modal__body__list {
+  gap: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.0016em;
+}
+.ttweb-ca-modal__body__list--light {
+  color: rgb(0, 0, 0);
+}
+.ttweb-ca-modal__body__desc {
+  line-height: 21px;
+  letter-spacing: 0.0019em;
+  margin-bottom: 24px;
+}
+.ttweb-ca-modal__body ul {
+  padding-inline-start: 19px;
+}
+.ttweb-ca-modal__footer {
+  margin: 24px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.ttweb-ca-modal__footer--rtl {
+  justify-content: flex-start;
+}

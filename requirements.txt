@@ -1,0 +1,8 @@
+bs4
+gensim
+jupyterlab
+openai-whisper
+pandas
+spacy
+yt_dlp
+
